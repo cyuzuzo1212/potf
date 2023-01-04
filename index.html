@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Portfolio Website</title>
+	<!---custom css link---->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	 <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<style>
+	.one{
+		height: 260px;
+	}
+.two{
+	height: 260px;
+}
+.four{
+	height: 260px;
+}
+.five{
+	height: 260px;
+}
+.six{
+	height: 260px;
+}
+.three{
+	height: 260px;
+}
+.seven{
+	height: 40px;
+}
+
+
+</style>
+
+
+
+
+
+
+
+
+<style>
+	*{
+		font-family: poppins;
+	
+	}
+	body{
+		margin: 0;
+		width: 100%;
+	}
+	#overlay{
+		background-color: #1a1b1b;
+	
+	}
+	form{
+		max-width: 550px;
+		width: 90%;
+		background:  #535257;
+		margin: 17vh auto 0 auto;
+		padding: 40px;
+		border-radius: 3px;
+		box-sizing: border-box;
+	}
+	h1{
+		margin: 0;
+		text-align: center;
+	}
+	label{
+		display: block;
+		margin: 20px 0;
+	}
+	input,textarea{
+		width: 100%;
+		padding: 10px;
+		box-sizing: border-box;
+		outline: none;
+		resize: none;
+		border: none;
+		border-bottom: solid #711313;
+	}
+	input[type="text"]:focus,textarea:focus{
+		border-bottom:1px solid rgb(255,0,106) ;
+	}
+	textarea::-webkit-scrollbar{
+		width: 4px;
+	
+	}
+	textarea::-webkit-scrollbar-thumb{
+		background-color: rgb(255,0,106);
+	}
+	input[type="submit"]{
+		margin-top:30px;
+		width: 90%;
+		max-width: 200px;
+		background: linear-gradien(to right,rgb(255,0,106),rgb(255,67,61));
+		color:white;
+		font-size: 17px;
+		cursor: pointer;
+		border-radius: 3px;
+		background-color: #ff4d05;
+	
+	}
+	.error{
+		border-bottom: 1px solid red;
+		color: red;
+	
+	}
+	#success{
+		color: #28a745;
+	}
+	.text{
+		background-color:#222424 ;
+		
+	}
+	.form1{
+		width: 100%;
+		right: 0px;
+		padding-left: 100px;
+	}
+	.dive{
+		width: 100%;
+		margin-left: 40px;
+		margin-right: 200px;
+	
+	}
+	.nam,.emay{
+		background-color: #3e071e;
+	}
+	.contact-me{
+	top:400px;
+	left: 400px;
+	
+	}
+</style>
+</style>
+<body>
+
+	<!----header design--->
+	<header>
+		<img class="seven" src="/logo.png" alt="">
+
+		<ul class="navlist">
+			<li><a href="#home" class="active">Home</a></li>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#contact">Contact Me</a></li>
+		</ul>
+
+		<div class="bx bx-menu" id="menu-icon">
+			
+		</div>
+	</header>
+>
+
+	<!----home section design--->
+	<section class="home" id="home">
+		<div class="home-text">
+			<div class="slide">
+				<span class="">Hello</span>
+				<span class="">I'm</span>
+			</div>
+			<h1>Cyuzuzo Thomas</h1>
+			<h3>Web<span> Designer.</span></h3>
+			<p>Web Developer with 10+ years experience that keep customers <br> coming back for about services makes best effort.</p>
+            </div>
+	</section>
+
+	<!----about section design--->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img/about.jpg">
+		</div>
+
+		<div class="about-text">
+			<h2>About <span>Me</span></h2>
+			<h4>Creativities</h4>
+			<p>Check our Best Design's updates for the top web design & development companies for your needs by reviewing our list & development companies! Find the best web design. Web Design Consulting. Comprehensive Directory. Top Reviewed Design Firms. Services: Web Page Design, Landing Page Design, App development, Mobile Website Design</p>
+			<a href="#" class="btn">More About</a>
+		</div>
+	</section>
+
+	<!----service section design--->
+	<section class="services" id="services">
+		<div class="main-text">
+			<h2><span>My</span> Services</h2>
+		</div>
+
+		<div class="services-content">
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-mobile-alt' ></i>
+				</div>
+				<h3>Web Design</h3>
+				<p>Professional’s area of expertise such as competitive analysis, corporate strategy.</p>
+				<a href="#" class="read">Read More</a>
+			</div>
+
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-code-alt' ></i>
+				</div>
+				<h3>Web Development</h3>
+				<p>Professional’s area of expertise such as competitive analysis, corporate strategy.</p>
+				<a href="#" class="read">Read More</a>
+			</div>
+
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-edit-alt' ></i>
+				</div>
+				<h3>Creative Design</h3>
+				<p>Professional’s area of expertise such as competitive analysis, corporate strategy.</p>
+				<a href="#" class="read">Read More</a>
+			</div>
+
+		</div>
+	</section>
+
+	<!----portfolio section design--->
+	<section class="portfolio" id="portfolio">
+		<div class="main-text">
+			<h2><span>Latest</span> Project</h2>
+		</div>
+
+		<div class="portfolio-content">
+			<div class="row">
+				<img class="one" src="img/portfolio1.png">
+				<div class="layer">
+					<h5>Visual Design</h5>
+					<p>Check our Best Design's updates for the top web design & development companies.</p>
+					<a href="#"><i class='bx bx-link-external' ></i></a>
+				</div>
+			</div>
+
+			<div class="row">
+				<img class="two" src="img/portfplio2.png">
+				<div class="layer">
+					<h5>Visual Design</h5>
+					<p>Check our Best Design's updates for the top web design & development companies.</p>
+					<a href="#"><i class='bx bx-link-external' ></i></a>
+				</div>
+			</div>
+
+			<div class="row">
+				<img class="three" src="img/portfolio3.png">
+				<div class="layer">
+					<h5>Visual Design</h5>
+					<p>Check our Best Design's updates for the top web design & development companies.</p>
+					<a href="#"><i class='bx bx-link-external' ></i></a>
+				</div>
+			</div>
+
+			<div class="row">
+				<img class="four" src="img/portfolio4.png">
+				<div class="layer">
+					<h5>Visual Design</h5>
+					<p>Check our Best Design's updates for the top web design & development companies.</p>
+					<a href="#"><i class='bx bx-link-external' ></i></a>
+				</div>
+			</div>
+
+			<div class="row">
+				<img class="five" src="img/portfolio5.png">
+				<div class="layer">
+					<h5>Visual Design</h5>
+					<p>Check our Best Design's updates for the top web design & development companies.</p>
+					<a href="#"><i class='bx bx-link-external' ></i></a>
+				</div>
+			</div>
+
+			<div class="row">
+				<img class="six" src="img/portfolio6.png">
+				<div class="layer">
+					<h5>Visual Design</h5>
+					<p>Check our Best Design's updates for the top web design & development companies.</p>
+					<a href="#"><i class='bx bx-link-external' ></i></a>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!----contact section design--->
+	<section class="contact" id="contact">
+		<div class="contact-text">
+			<h2>Contact <span>Me!</span></h2>
+			<h4>If You Have Any Project In Your Mind.</h4>
+			<p>I'm a Web Designer - creating bold & brave interface design for companies all across the world.</p>
+			<div class="list">
+				<li><a href="#">Phone number: 0787709268</a></li>
+				<li><a href="#">Email: cyuzuzoperry@gmail.com</a></li>
+				<li><a href="#">Location: Kigali</a></li>
+				</div>
+
+			<div class="contact-icons">
+				<a href="#"><i class='bx bxl-facebook' ></i></a>
+				<a href="#"><i class='bx bxl-twitter' ></i></a>
+				<a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+				<a href="#"><i class='bx bxl-youtube' ></i></a>
+			</div>
+		</div>
+
+		<!--<div class="contact-form">
+			<form action="">
+				<input type="name" placeholder="Your Name" required>
+				<input type="email" placeholder="Your Email Address" required>
+				<input type="" placeholder="Your Mobile Number" required>
+				<textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
+				<input type="submit" value="Send Message" class="submit" required>
+			</form>
+		</div>
+	</section> -->
+	
+    <!--<section class="contact" id="contact">-->
+	
+		<div class="dive" id="overlay">
+			<div>
+				<h1 class="contact-me">Contact <span>Me</span></h1>
+			</div>
+			<form class="form1" onsubmit="event.preventDefault(); validateForm()">
+				<h1></h1>
+	
+				<label for="name">Name:</label>
+				<input  class="nam" type="text" id="name" placeholder="Your name">
+				<small class="error"></small>
+	
+				<label for="email">Email:</label>
+				<input  class="emay" type="text" id="email" placeholder="Your email">
+				<small class="error"></small>
+	
+				<label for="message">Message:</label>
+				<textarea class="text"  name="" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+				<small class="error"></small>
+	
+				<div class="center"></div>
+
+
+				<input type="submit" value="Send Message">
+				<p id="success"></p>
+             
+		<script>
+			// get data
+	const nameInput =document.querySelector("#name");
+	const email =document.querySelector("#email");
+	const message=document.querySelector('#message');
+	const errorNodes= document.querySelectorAll('.error');
+	//validate form
+	function validateForm(){
+		clearMessages();
+		let errorFlag=false;
+		if(nameInput.value.length<1){
+			errorNodes[0].innerText="Name cannot be blank";
+			nameInput.classList.add('error-border');
+			errorFlag=true;
+		}
+		if(!eamilIsValid(email.value)){
+			errorNodes[1].innerText="Invalid email address";
+			email.classList.add('error-border');
+			errorFlag=true;
+		}
+		if(message.value.length<1){
+			errorNodes[2].innerText="Please enter message";
+			message.classList.add('error-border');
+			errorFlag=true;
+	
+		}
+		if(!errorFlag){
+			success.innerText="Done";
+		}
+	
+	}
+	// clear error /sucess messages
+	function clearMessages(){
+		for(let i=0;i<errorNodes.length;i++){
+			errorNodes[i].innerText="";
+		}
+		success.innerText="";
+		nameInput.classList.remove('error-border');
+		email.classList.remove('error-border');
+		message.classList.remove('error-border');
+	}
+	
+	//check if email is valid
+	function eamilIsValid(email){
+		let pattern=/\S+@\S+\.\S+/;
+		return pattern.test(email);
+	
+	}
+	
+		</script>
+	</section>
+
+<!----end section design--->
+	<section class="end">
+		<div class="last-text">
+			<p>Copyright © 2022 by Thomas Cyuzuzo All Rights Reserved.</p>
+		</div>
+
+		<div class="top">
+			<a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+		</div>
+	</section>
+
+	<!---custom js link--->
+	<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
+
